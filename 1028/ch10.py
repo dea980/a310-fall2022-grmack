@@ -38,7 +38,7 @@ import zipfile
 # read_from_zip.extractall()
 # read_from_zip.close()
 
-# Read a zip
+# Read a zip ## zip directory ... 
 exampleZip = zipfile.ZipFile('new.zip')
 spamInfo = exampleZip.getinfo('spam.txt')
 print(spamInfo.file_size) # 83 bytes (original)
